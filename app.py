@@ -5,11 +5,11 @@ import pandas as pd
 st.title("Nice To Meet You 歡迎! 👋")
 
 # 2. 顯示基本文字
-st.write("這是我的第一個 Streamlit 網頁應用程式。")
+st.write("你好!歡迎來到Straemlit的世界!")
 
 # 3. 增加一些互動元件 (按鈕)
 if st.button('點擊我打招呼'):
-    st.success('你好！歡迎來到 Streamlit 的世界！')
+    st.success('Hello!')
 
 # 4. 簡單的輸入框互動
 name = st.text_input("請輸入你的名字：")
