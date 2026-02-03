@@ -60,6 +60,13 @@ if i % 2 == 0:
 '''
 
 
+
+
+
+
+
+
+'''
 def BMI(para1, para2)->float:
     height=para1/100
     weight=para2
@@ -81,7 +88,8 @@ elif bmi>=24 and bmi<27:
 else:
     print("體重肥胖")
 
-
+#使用函式製作BMI計算器
+'''
 
 
  
