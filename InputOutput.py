@@ -17,8 +17,17 @@ print("var1 = " + str(var1))
 print(var1, end="")
 print(var1)'''
 
-var1 = int(input("身高整數值 =>"))
+'''var1 = int(input("身高整數值 =>"))
+
+
+var1 = float(input("Please enter a floating point number =>"))
+var1 = input("Please enter a string =>")
+
+
 print("You entered integer:", var1)
+
+
+'''
 
 '''
 var1 = float(input("Please enter a floating point number =>"))
